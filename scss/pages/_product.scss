@@ -1,0 +1,56 @@
+
+.topic{
+    text-align: center;
+    @include pad{
+        margin-bottom: 60px;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(122, 122, 122);
+        margin-bottom: 24px;
+    }
+}
+
+
+.productTable{
+    width: 85%;
+    text-align: left;
+    margin: 0 auto 60px;
+    @include pad{
+        width: 100%;
+    }
+    table{
+        width: 100%;
+        margin-top: 16px;
+    }
+    thead tr{
+        border-bottom: 1px solid #000;
+    }
+    tr{
+        border-bottom: 1px solid #aaa;
+        vertical-align: middle;
+    }
+    th{
+        padding: 0 0 8px 8px;
+        white-space: nowrap;
+    }
+    td{
+        padding: 8px;
+    }
+    .noProduct{
+        text-align: center;
+        border-bottom: none;
+        td{
+            font-style: italic;
+            color: #aaa;
+            padding: 20px;
+        }
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+
+.loginBtn{
+    width: 100%;
+    font-size: 1rem;
+    color: #fff;
+    background: $secondary;
+    padding: 8px 16px;
+    border: $secondary;
+    border-radius: 4px;
+    &:hover{
+        background: #0a54c4;
+        transition: 0.7s;
+    }
+}
+
+.baseBtn{
+    background: #fff;
+    font-size: 0.875rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.addProductBtn{
+    color: $primary;
+    border: 1px solid $primary;
+    &:hover{
+        color: #fff;
+        background: $primary;
+        transition: 0.7s;
+    }
+}
+
+.deleteBtn{
+    color: red;
+    border: 1px solid red;
+    &:hover{
+        color: #fff;
+        background: red;
+        transition: 0.7s;
+    }
+}
+
+.editBtn{
+    color: $primary;
+    border: 1px solid $primary;
+    &:hover{
+        color: #fff;
+        background: $secondary;
+        transition: 0.7s;
+    }
+}
+
+.disabledBtn{
+    color: #aaa;
+    border: 1px solid #aaa;
+}

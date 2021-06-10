@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理系統</title>
+    <link rel="stylesheet" href="./css/style/all.css">
+    <style>
+        html{
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="loginPage">
+    
+    <div class="container" id="login">
+        <section class="loginBlock">
+            <h1>管理系統登入</h1>
+            <div class="group">
+                <input type="email" placeholder="Email address" v-model="user.username">
+            </div>
+            <div class="group">
+                <input type="password" placeholder="Password" v-model="user.password" @keyup.enter="login()">
+            </div>
+            <div class="group">
+                <button class="loginBtn" type="button" @click="login()">登入</button>
+            </div>
+        </section>
+    </div>
+
+   
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <!-- web -->
+    <script src="./js/login.js"></script>
+</body>
+</html>
