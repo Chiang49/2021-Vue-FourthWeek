@@ -1,0 +1,18 @@
+
+.pagination{
+    border-radius: 4px;
+    margin-bottom: 60px;
+    .page-link{
+        color: $primary;
+        border: 1px solid $primary;
+        &:hover{
+            color: #fff;
+            background: $primary;
+            transition: 0.7s;
+        }
+    }
+    .pageAction{
+        color: #fff;
+        background: $primary;
+    }
+}

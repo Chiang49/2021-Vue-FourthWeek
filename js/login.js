@@ -1,5 +1,5 @@
 
-const login = {
+const login = Vue.createApp({
 
     data(){
         return{
@@ -45,6 +45,7 @@ const login = {
             }
         }
     }
-}
+})
 
-Vue.createApp(login).mount('#login');
+
+login.mount('#login');

@@ -395,12 +395,13 @@ button {
   color: #fff;
   background: #32485C;
   padding: 8px 16px;
-  border: #32485C;
+  border: 1px solid #32485C;
   border-radius: 4px;
 }
 
 .loginBtn:hover {
-  background: #0a54c4;
+  color: #32485C;
+  background: #fff;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -452,6 +453,28 @@ button {
 .disabledBtn {
   color: #aaa;
   border: 1px solid #aaa;
+}
+
+.pagination {
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+
+.pagination .page-link {
+  color: #698396;
+  border: 1px solid #698396;
+}
+
+.pagination .page-link:hover {
+  color: #fff;
+  background: #698396;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.pagination .pageAction {
+  color: #fff;
+  background: #698396;
 }
 
 .loginPage {
